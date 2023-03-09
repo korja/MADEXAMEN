@@ -55,7 +55,7 @@ dev_dependencies:
 
 flutter_native_splash:
   image: assets/news.png
-  color: "#00ff00"
+  color: "#0000ff"
 # The following section is specific to Flutter packages.
 flutter:
 

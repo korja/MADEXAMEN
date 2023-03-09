@@ -23,19 +23,22 @@ class Item1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[
-          Text("title1",
-              style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 22.0,
-                  fontWeight: FontWeight.bold)),
-          Text("footer",
-              style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 17.0,
-                  fontWeight: FontWeight.w600)),
+      child: Stack(
+        children: [
+          Image.asset(
+            'assets/nieuws.jpg',
+            fit: BoxFit.cover,
+          ),
+          Positioned(
+            bottom: 10,
+            left: 0,
+            right: 0,
+            child: Text("nieuws van de week",
+                style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 22.0,
+                    fontWeight: FontWeight.bold)),
+          )
         ],
       ),
     );
@@ -47,19 +50,22 @@ class Item2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+      child: Stack(
         children: [
-          Text("title2",
-              style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 22.0,
-                  fontWeight: FontWeight.bold)),
-          Text("footer",
-              style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 17.0,
-                  fontWeight: FontWeight.w600)),
+          Image.asset(
+            'assets/nieuws.jpg',
+            fit: BoxFit.cover,
+          ),
+          Positioned(
+            bottom: 10,
+            left: 0,
+            right: 0,
+            child: Text("nieuws van de week",
+                style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 22.0,
+                    fontWeight: FontWeight.bold)),
+          )
         ],
       ),
     );
@@ -98,19 +104,22 @@ class Item4 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+      child: Stack(
         children: [
-          Text("title4",
-              style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 22.0,
-                  fontWeight: FontWeight.bold)),
-          Text("footer",
-              style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 17.0,
-                  fontWeight: FontWeight.w600)),
+          Image.asset(
+            'assets/nieuws.jpg',
+            fit: BoxFit.cover,
+          ),
+          Positioned(
+            bottom: 10,
+            left: 0,
+            right: 0,
+            child: Text("nieuws van de week",
+                style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 22.0,
+                    fontWeight: FontWeight.bold)),
+          )
         ],
       ),
     );
@@ -184,14 +193,14 @@ class _HomePageState extends State<HomePage> {
                       );
                     }, // Image tapped
                     child: Image.network(
-                      'https://upload.wikimedia.org/wikipedia/commons/8/8e/NPO_Nieuws_logo.png',
+                      'https://media.nu.nl/m/nhzxoz7a6zo4_wd320.jpg',
                       fit: BoxFit.cover, // Fixes border issues
                     ),
                   ),
                 ),
                 Container(
                   child: Text(
-                    "title",
+                    "Fuji",
                     style: TextStyle(
                       fontSize: 24,
                       fontWeight: FontWeight.bold,
@@ -226,14 +235,14 @@ class _HomePageState extends State<HomePage> {
                       );
                     }, // Image tapped
                     child: Image.network(
-                      'https://upload.wikimedia.org/wikipedia/commons/8/8e/NPO_Nieuws_logo.png',
+                      'https://media.nu.nl/m/nhzxoz7a6zo4_wd320.jpg',
                       fit: BoxFit.cover, // Fixes border issues
                     ),
                   ),
                 ),
                 Container(
                   child: Text(
-                    "title",
+                    "Fuji",
                     style: TextStyle(
                       fontSize: 24,
                       fontWeight: FontWeight.bold,
@@ -268,14 +277,14 @@ class _HomePageState extends State<HomePage> {
                       );
                     }, // Image tapped
                     child: Image.network(
-                      'https://upload.wikimedia.org/wikipedia/commons/8/8e/NPO_Nieuws_logo.png',
+                      'https://media.nu.nl/m/nhzxoz7a6zo4_wd320.jpg',
                       fit: BoxFit.cover, // Fixes border issues
                     ),
                   ),
                 ),
                 Container(
                   child: Text(
-                    "title",
+                    "Fuji",
                     style: TextStyle(
                       fontSize: 24,
                       fontWeight: FontWeight.bold,
@@ -310,14 +319,14 @@ class _HomePageState extends State<HomePage> {
                       );
                     }, // Image tapped
                     child: Image.network(
-                      'https://upload.wikimedia.org/wikipedia/commons/8/8e/NPO_Nieuws_logo.png',
+                      'https://media.nu.nl/m/nhzxoz7a6zo4_wd320.jpg',
                       fit: BoxFit.cover, // Fixes border issues
                     ),
                   ),
                 ),
                 Container(
                   child: Text(
-                    "title",
+                    "Fuji",
                     style: TextStyle(
                       fontSize: 24,
                       fontWeight: FontWeight.bold,

@@ -18,7 +18,7 @@ class _ArtikelPageState extends State<ArtikelPage> {
         body: Column(
           children: [
             Image.network(
-              'https://upload.wikimedia.org/wikipedia/commons/8/8e/NPO_Nieuws_logo.png',
+              'https://media.nu.nl/m/nhzxoz7a6zo4_wd320.jpg',
               fit: BoxFit.cover,
             ),
             Padding(
@@ -31,7 +31,7 @@ class _ArtikelPageState extends State<ArtikelPage> {
             Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+                "Boven de berg Fuji werd op 23 februari een bijzondere wolk gefilmd.",
                 style: TextStyle(fontSize: 20),
               ),
             ),
@@ -41,7 +41,7 @@ class _ArtikelPageState extends State<ArtikelPage> {
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: Text(
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+                'De zogeheten lenswolk blijft rond de top van de hoogste berg van Japan draaien.',
                 style: TextStyle(fontSize: 20),
               ),
             )
